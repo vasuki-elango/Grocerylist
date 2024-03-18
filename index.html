@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="name">Grocery List</h2>
+        <div class="search-box">
+            <form action="">
+                <input type="text" id="input-box" placeholder="Write Grocery item...">
+                <input type="text" id="quantity-value" placeholder="Type the quantity...">
+                <p class="error"></p>
+            </form>
+            <button>Add Item</button>
+        </div>
+         <div class="content">
+            <ul>
+                <li>
+                    <sapn class="item">Carrot - 0.5kg</sapn>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <sapn class="item">Potato - 1.5kg</sapn>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <sapn class="item">White Bens - 1kg</sapn>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
